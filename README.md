@@ -28,7 +28,9 @@ pip install -r requirements.txt
 python bot.py
 ```
 ## ویدیو آموزشی 
-https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html
+
+<iframe width="560" height="315" src="[https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4?raw=1&autoplay=1](https://uupload.ir/view/img_20231201_154401266_oc8.mp4/)" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## توسعه 
