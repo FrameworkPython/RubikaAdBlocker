@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python bot.py
 ```
 
-برای دیدن ویدیو آموزشی نحوه اجرا و استفاده کردن از ربات روی [لینک](https://uupload.ir/view/img_20231201_154401266_oc8.mp4?raw=1&controls=1) کلیک کنید.
+برای دیدن ویدیو آموزشی نحوه اجرا و استفاده کردن از ربات روی [لینک](https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4/) کلیک کنید.
 
 
 ## توسعه 
