@@ -18,3 +18,8 @@ git clone https://github.com/FrameworkPython/RubikaAdBlocker
 سپس باید وارد پوشه اسکریپت شده و کتابخانه های مورد نیاز را نصب نمایید:
 ```bash
 cd RubikaAdBlocker
+```
+```bash
+pip install -r requirements.txt
+```
+بعد از نصب شدن کتابخانه های مورد نیاز، میتوانید ربات را اجرا نمایید:
