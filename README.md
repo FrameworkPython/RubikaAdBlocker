@@ -29,11 +29,7 @@ python bot.py
 ```
 
 ## ویدیو آموزشی
-<iframe width="900" height="900" src="https://uupload.ir/view/img_20231201_154401266_oc8.mp4?raw=1&controls=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
+https://uupload.ir/view/img_20231201_154401266_oc8.mp4?raw=1&controls=1
 
 ## توسعه 
 اگر می‌خواهید به توسعه این ربات کمک کنید، لطفا ابتدا یک شاخه از مخزن ایجاد کنید و تغییرات خود را در آن اعمال کنید. سپس، یک درخواست ادغام برای اعمال تغییرات خود به مخزن اصلی ارسال کنید.
