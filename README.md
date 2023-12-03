@@ -28,7 +28,8 @@ pip install -r requirements.txt
 python bot.py
 ```
 ## ویدیو آموزشی 
-<iframe width="560" height="315" src="https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4?raw=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Video Title](https://s30.picofile.com/file/8470116218/01437084.jpg)]([https://www.example.com/example.mp4](https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html))
+
 
 ## توسعه 
 اگر می‌خواهید به توسعه این ربات کمک کنید، لطفا ابتدا یک شاخه از مخزن ایجاد کنید و تغییرات خود را در آن اعمال کنید. سپس، یک درخواست ادغام برای اعمال تغییرات خود به مخزن اصلی ارسال کنید.
