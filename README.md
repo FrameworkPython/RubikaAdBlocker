@@ -13,8 +13,8 @@
 برای نصب و راه‌اندازی این ربات، ابتدا فایل اسکریپت را دانلود نمایید:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/FrameworkPython/RubikaAdBlocker
 ```
 سپس باید وارد پوشه اسکریپت شده و کتابخانه های مورد نیاز را نصب نمایید:
 ```bash
-cd 
+cd RubikaAdBlocker
