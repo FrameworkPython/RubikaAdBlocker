@@ -28,7 +28,7 @@ pip install -r requirements.txt
 python bot.py
 ```
 ## ویدیو آموزشی 
-[![Video Title]([https://s30.picofile.com/file/8470116218/01437084.jpg](https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html))]([[https://www.example.com/example.mp4](https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html)](https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html))
+https://s31.picofile.com/file/8470116326/IMG_20231201_154401266.mp4.html
 
 
 ## توسعه 
