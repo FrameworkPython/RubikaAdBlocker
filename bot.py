@@ -32,7 +32,7 @@ def test_check_forbidden_patterns():
     print("Anti-link and forward was activated successfully!")
 
 async def main():
-    handler = MessageHandler(["g0DrB280cd2bc926001dfd1caa753bcf", "g0DQVcs06895f970201487d0ea1fdd97"], [r".*@.*", r".*https://rubika\.ir.*"])
+    handler = MessageHandler(["guid1", "guid2"], [r".*@.*", r".*https://rubika\.ir.*"])
     async with Client(session="Self") as client:
         @client.on(handlers.MessageUpdates())
         async def updates(message: Message):
