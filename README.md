@@ -10,7 +10,11 @@
 
 ## نصب و راه‌اندازی
 
-<video src="https://github.com/FrameworkPython/assets/a1b04edc51c19a39c33e1f716a60e06928298744-"> </video>
+## Video
+
+https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/38d13bee-eb2b-4d3c-bc4e-7ecaf9c5fa75
+
+
 
 
 
