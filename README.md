@@ -10,7 +10,7 @@
 
 ## نصب و راه‌اندازی
 
-## Video
+
 
 https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/38d13bee-eb2b-4d3c-bc4e-7ecaf9c5fa75
 
