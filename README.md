@@ -10,7 +10,7 @@
 
 ## نصب و راه‌اندازی
 
-![https://www.aparat.com/video/video/embed/videohash/BxzpR/vt/frame]()
+<video src="https://www.aparat.com/video/video/embed/videohash/BxzpR/vt/frame"> </video>
 
 
 
