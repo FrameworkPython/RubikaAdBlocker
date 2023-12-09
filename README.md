@@ -10,7 +10,7 @@
 
 ## نصب و راه‌اندازی
 
-<video src="https://www.aparat.com/video/video/embed/videohash/BxzpR/vt/frame"> </video>
+<video src="https://github.com/FrameworkPython/Internet-speed-checker/blob/main/InShot_20221020_234359135.mp4"> </video>
 
 
 
