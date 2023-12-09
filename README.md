@@ -10,7 +10,7 @@
 
 ## نصب و راه‌اندازی
 
-![Uploading a1b04edc51c19a39c33e1f716a60e06928298744-144p.mp4…]()
+![Uploading a1b04edc51c19a39c33e1f716a60e06928298744-144p.mp4…]
 
 
 
