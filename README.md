@@ -17,7 +17,7 @@ git clone https://github.com/FrameworkPython/RubikaAdBlocker
 ```
 سپس باید وارد پوشه اسکریپت شده و کتابخانه های مورد نیاز را نصب نمایید:
 <p align="center">
-  <img src="[https://user-images.githubusercontent.com/68476573/168606588-892c209f-c72b-4267-b702-65ce474c5526.gif](https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4/)">
+  <img src="[https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4]">
 </p>
 
 ```bash
