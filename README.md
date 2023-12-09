@@ -29,7 +29,7 @@ python bot.py
 ```
 
 برای دیدن ویدیو آموزشی نحوه اجرا و استفاده کردن از ربات روی [لینک](https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4/) کلیک کنید.
-![Uploading https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4]()
+
 
 
 ## توسعه 
