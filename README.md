@@ -10,7 +10,7 @@
 
 ## نصب و راه‌اندازی
 
-<video src="https://github.com/FrameworkPython/Internet-speed-checker/raw/main/InShot_20221020_234359135.mp4"> </video>
+<video src="a1b04edc51c19a39c33e1f716a60e06928298744-144p.mp4"> </video>
 
 
 
