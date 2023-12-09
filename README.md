@@ -16,9 +16,11 @@
 git clone https://github.com/FrameworkPython/RubikaAdBlocker
 ```
 سپس باید وارد پوشه اسکریپت شده و کتابخانه های مورد نیاز را نصب نمایید:
-<p align="center">
-  <img src="[https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4]">
-</p>
+<video width="320" height="240" controls>
+  <source src="https://uupload.ir/view/inshot_20231203_161800858_1_ob17.mp4" type="video/mp4">
+  مرورگر شما از تگ ویدیو پشتیبانی نمی‌کند.
+</video>
+
 
 ```bash
 cd RubikaAdBlocker
