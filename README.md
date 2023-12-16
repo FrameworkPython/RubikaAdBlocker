@@ -30,16 +30,17 @@
 - با دستور `لینک` میتوانید لینک گروه مورد نظر را دریافت نمایید.
 
 
-https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/45e77bc7-81a7-4791-9200-ff1509e8d647
-
-
-
 
   https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/6b0d1831-d965-4e4e-9329-bac9afc17e6f
 
 
 - **تنظیم  یا خاموش کردن سیستم اخطار**
 - با دستور `اخطار x` میتونید تعداد اخطار در گروه رو تنطیم کنید، به جای x تعداد اخطار رو وارد کنید.مثال:`اخطار ۴`. برای غیرفعال کردن سیستم اخطار میتونید دستور `اخطار خاموش` رو وارد کنید
+
+
+  https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/45e77bc7-81a7-4791-9200-ff1509e8d647
+
+  
   
 ## نصب و راه‌اندازی
 
