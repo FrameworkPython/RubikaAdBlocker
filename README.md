@@ -1,4 +1,4 @@
-<div dir="rtl">
+<div style="text-align: right;">
   
 # ربات ضد تبلیغات روبیکا
 
