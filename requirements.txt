@@ -1,3 +1,4 @@
-rubpy==6.4.8
+rubpy==6.5.5
 re
 asyncio
+typing
