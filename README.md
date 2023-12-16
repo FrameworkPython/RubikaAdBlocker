@@ -17,6 +17,8 @@
 
      https://github.com/FrameworkPython/RubikaAdBlocker/assets/149888152/77e74e74-da54-4799-88ce-7b1251b75c53
 
+</div>
+
 - **گرفتن و یا پاکسازی لیست سیاه**
 -     با دستور 
 ## نصب و راه‌اندازی
