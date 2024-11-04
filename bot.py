@@ -66,14 +66,14 @@ class MessageHandler:
                 if text == "اخطار خاموش" and self.last_warning_command != "اخطار خاموش":
                     self.warning_mode = False
                     self.last_warning_command = "اخطار خاموش"
-                    asyncio.create_task(client.send_message(obguid, "سیستم اخطار خاموش شد.", reply_to_message_id=msg,auto_delete=45))
+                    await client.send_message(obguid, "سیستم اخطار خاموش شد.", reply_to_message_id=msg,auto_delete=45)
                 elif text.startswith("اخطار ") and self.last_warning_command != text:
                     self.max_warnings = int(text.split()[1])
                     self.warning_mode = True
                     self.last_warning_command = text
-                    asyncio.create_task(client.send_message(obguid, f"حداکثر اخطار تنظیم شد به {self.max_warnings}.", reply_to_message_id=msg,auto_delete=45))
+                    await client.send_message(obguid, f"حداکثر اخطار تنظیم شد به {self.max_warnings}.", reply_to_message_id=msg,auto_delete=45)
                 elif text.startswith("راهنما"):
-                    asyncio.create_task(client.send_message(obguid,"""راهنما\n1. 🚫 اخطار خاموش: با ارسال این دستور، فقط لینک‌ها و تبلیغات پاک می‌شوند و اخطاری داده نمی‌شود.\n
+                    await client.send_message(obguid,"""راهنما\n1. 🚫 اخطار خاموش: با ارسال این دستور، فقط لینک‌ها و تبلیغات پاک می‌شوند و اخطاری داده نمی‌شود.\n
 2. ⚠️ اخطار X: با جایگزینی X با یک عدد، می‌توانید تعداد اخطارهای مجاز را تنظیم کنید. به عنوان مثال، اخطار 4 .\n
 3. 🛡️حالت سختگیر: با فعال کردن این حالت، هر کسی که لینک ارسال کند یا پیامی را فوروارد کند، بلافاصله از گروه حذف می‌شود.\n
 4. 🔄 حالت سختگیر غیرفعال: با این دستور، فقط پیام‌ها و فورواردها پاک می‌شوند.\n
@@ -85,15 +85,15 @@ class MessageHandler:
 10. 🧹 پاک کردن اخطار: با ریپلی کردن یک کاربر و ارسال این دستور، تمام اخطارهای کاربر مورد نظر پاک می‌شوند.\n
 11. 📊 وضعیت اخطار: با ریپلی کردن یک کاربر و ارسال این دستور، می‌توانید تعداد اخطارهای کاربر مورد نظر را ببینید.\n
 ❌ توجه:تمامی پیام هایی که ربات ارسال میکند، اعم از اجرای دستورات و ... بعد از ۱ دقیقه پاک خواهند شد       
-            """, reply_to_message_id=msg,auto_delete=45))
+            """, reply_to_message_id=msg,auto_delete=45)
                 elif text == "حالت سختگیر" and self.last_command != "حالت سختگیر":
                     self.strict_mode = True
                     self.last_command = "حالت سختگیر"
-                    asyncio.create_task(client.send_message(obguid, "حالت سخت گیر فعال شد. لینک ها و پیام های فوروارد شده حذف خواهند شد و کاربرانی که این کار را انجام می دهند از گروه حذف خواهند شد.", reply_to_message_id=msg,auto_delete=45))
+                    await client.send_message(obguid, "حالت سخت گیر فعال شد. لینک ها و پیام های فوروارد شده حذف خواهند شد و کاربرانی که این کار را انجام می دهند از گروه حذف خواهند شد.", reply_to_message_id=msg,auto_delete=45)
                 elif text == "حالت سختگیر غیرفعال" and self.last_command != "حالت سختگیر غیرفعال":
                     self.strict_mode = False
                     self.last_command = "حالت سختگیر غیرفعال"
-                    asyncio.create_task(client.send_message(obguid, "حالت سخت گیر غیرفعال شد. فقط لینک ها و پیام های فوروارد شده حذف خواهند شد.", reply_to_message_id=msg,auto_delete=45))
+                    await client.send_message(obguid, "حالت سخت گیر غیرفعال شد. فقط لینک ها و پیام های فوروارد شده حذف خواهند شد.", reply_to_message_id=msg,auto_delete=45)
                 elif text == "لیست سیاه":
                     banned_members = await self.get_banned_members(client, obguid)
                     if not banned_members:
@@ -117,7 +117,7 @@ class MessageHandler:
                         await client.send_message(obguid, "این کاربر اخطار ندارد.", reply_to_message_id=message.reply_to_message_id,auto_delete=45)
                     else:
                         warning_status_message = f"تعداد اخطارهای کاربر: {warnings}/{self.max_warnings}"
-                        asyncio.create_task(client.send_message(obguid, warning_status_message, reply_to_message_id=message.reply_to_message_id,auto_delete=45))
+                        await client.send_message(obguid, warning_status_message, reply_to_message_id=message.reply_to_message_id,auto_delete=45)
                 elif text == "لینک":
                     await self.get_group_link(client, obguid, msg)
                 elif text == "بن" and message.reply_to_message_id:
@@ -134,7 +134,7 @@ class MessageHandler:
                         self.warnings.setdefault(reply_author_guid, 0)
                         self.warnings[reply_author_guid] += 1
                         warning_message = f"کاربر گرامی شما اخطار دریافت کردید، پس از تکمیل اخطار از گروه حذف خواهید شد.اخطار شما:{self.warnings[reply_author_guid]}/{self.max_warnings}"
-                        asyncio.create_task(client.send_message(obguid, warning_message, reply_to_message_id=message.reply_to_message_id,auto_delete=45))
+                        await client.send_message(obguid, warning_message, reply_to_message_id=message.reply_to_message_id,auto_delete=45)
                         if self.warnings[reply_author_guid] >= self.max_warnings:
                             await self.ban_group_member(client, obguid, reply_author_guid)
                             del self.warnings[reply_author_guid]
@@ -148,15 +148,15 @@ class MessageHandler:
                     self.warnings.setdefault(message.author_guid, 0)
                     self.warnings[message.author_guid] += 1
                     warning_message = f"کاربر گرامی تبلیغات ممنوع است، در صورت تکمیل اخطار،از گروه حذف خواهید شد، اخطار شما :{self.warnings[message.author_guid]}/{self.max_warnings}"
-                    asyncio.create_task(client.send_message(obguid, warning_message, reply_to_message_id=message.message_id,auto_delete=45))
+                    await client.send_message(obguid, warning_message, reply_to_message_id=message.message_id,auto_delete=45)
                     if self.warnings[message.author_guid] >= self.max_warnings:
                         await self.ban_group_member(client, obguid, message.author_guid)
                         del self.warnings[message.author_guid]
 
 
 async def main() -> None:
-    gaps = ["g0DhOML041a0db4e67ede35a1bcb515f","g0DvCmj0f14c6752e554bd9e4aeab040","g0DQVcs06895f970201487d0ea1fdd97"]
-    handlers = {gap: MessageHandler([r".*@.*", r".*https://.*",r".*http://.*", r".*Https://.*", r".*Http://.*"], "u0Ez69m073020b4ae5027950259a2cd2") for gap in gaps}
+    gaps = ["guid gap 1","guid hap 2"]
+    handlers = {gap: MessageHandler([r".*@.*", r".*https://.*",r".*http://.*", r".*Https://.*", r".*Http://.*"], "owner guid") for gap in gaps}
     async with Client(session="Self") as client:
         @client.on_message()
         async def updates(message: Message) -> None:
